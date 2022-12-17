@@ -1,7 +1,7 @@
 {
     "name": "fast-company",
     "version": "0.1.0",
-    "homepage": "https://elon26.github.io/course-project",
+    "homepage": "https://elon26.github.io/fast-company",
     "private": true,
     "dependencies": {
         "@reduxjs/toolkit": "^1.8.6",

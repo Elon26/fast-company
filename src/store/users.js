@@ -124,7 +124,7 @@ export const singUp = ({ email, password, ...rest }) => async (dispatch) => {
 export const logout = () => (dispatch) => {
     localStorageService.removeAuthData();
     dispatch(userLoggedOut());
-    history.push("/course-project/");
+    history.push("/fast-company/");
 };
 
 function createUser(payload) {
@@ -133,7 +133,7 @@ function createUser(payload) {
         try {
             const { content } = await userServise.create(payload);
             dispatch(userCreated(content));
-            history.push("/course-project/users");
+            history.push("/fast-company/users");
         } catch (error) {
             dispatch(createUserFailed(error.message));
         }
@@ -146,7 +146,7 @@ export function updateUserData(payload) {
         try {
             const { content } = await userServise.update(payload);
             dispatch(userUpdated(content));
-            history.push("/course-project/users/" + payload._id);
+            history.push("/fast-company/users/" + payload._id);
         } catch (error) {
             dispatch(updateUserFailed(error.message));
         }

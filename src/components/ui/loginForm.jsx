@@ -73,7 +73,7 @@ const LoginForm = () => {
         if (isValid) {
             const redirect = history.location.state
                 ? history.location.state.from.pathname
-                : "/course-project/users/";
+                : "/fast-company/users/";
             dispatch(login({ payload: data, redirect }));
             setFreshForm(true);
         }

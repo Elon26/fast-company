@@ -76,12 +76,12 @@ const UserChangePage = ({ userId }) => {
     };
 
     const handleGoBack = () => {
-        history.push("/course-project/users/" + userId);
+        history.push("/fast-company/users/" + userId);
     };
 
     const checkAuth = () => {
         if (currentUser._id !== userId) {
-            window.location.assign("/course-project/users/" + currentUser._id + "/edit/");
+            window.location.assign("/fast-company/users/" + currentUser._id + "/edit/");
         }
     };
 

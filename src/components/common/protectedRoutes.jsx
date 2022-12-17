@@ -11,7 +11,7 @@ const ProtectedRoute = ({ component: Component, children, ...rest }) => {
         <Route {...rest} render={(props) => {
             if (!isLoggedIn) {
                 return <Redirect to={{
-                    pathname: "/course-project/login",
+                    pathname: "/fast-company/login",
                     state: {
                         from: props.location
                     }

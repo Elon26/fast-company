@@ -32,7 +32,7 @@ const AuthProvider = ({ children }) => {
     function logout() {
         localStorageService.removeAuthData();
         setCurrentUser(null);
-        history.push("/course-project/");
+        history.push("/fast-company/");
     }
 
     function randomInt(min, max) {

@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className="container-fluid">
                 <ul className="nav">
                     <li className="nav-item">
-                        <Link className="nav-link " aria-current="page" to="/course-project/">
+                        <Link className="nav-link " aria-current="page" to="/fast-company/">
                             Главная
                         </Link>
                     </li>
@@ -21,7 +21,7 @@ const NavBar = () => {
                             <Link
                                 className="nav-link "
                                 aria-current="page"
-                                to="/course-project/users"
+                                to="/fast-company/users"
                             >
                                 Пользователи
                             </Link>
@@ -35,7 +35,7 @@ const NavBar = () => {
                         <Link
                             className="nav-link "
                             aria-current="page"
-                            to="/course-project/login"
+                            to="/fast-company/login"
                         >
                             Login
                         </Link>

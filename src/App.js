@@ -19,14 +19,14 @@ const App = () => {
                     <NavBar />
                     <Switch>
                         <ProtectedRoute
-                            path="/course-project/users/:userId?/:edit?"
+                            path="/fast-company/users/:userId?/:edit?"
                             component={Users}
                         />
-                        <Route path="/course-project/login/:type?" component={Login} />
-                        <Route path="/course-project/logout" exact component={Logout} />
-                        <Route path="/course-project/" exact component={Main} />
-                        <Route path="/course-project/404" component={NotFound} />
-                        <Redirect to="/course-project/404" />
+                        <Route path="/fast-company/login/:type?" component={Login} />
+                        <Route path="/fast-company/logout" exact component={Logout} />
+                        <Route path="/fast-company/" exact component={Main} />
+                        <Route path="/fast-company/404" component={NotFound} />
+                        <Redirect to="/fast-company/404" />
                     </Switch>
                 </ClickCatcherProvider>
             </AppLoader>

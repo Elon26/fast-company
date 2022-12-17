@@ -36,8 +36,8 @@ const NavProfile = () => {
                 />
             </div>
             <div className={"w-100 dropdown-menu" + (isOpen ? " show" : "")}>
-                <Link to={`/course-project/users/${currentUser._id}`} className="dropdown-item">Профиль</Link>
-                <Link to="/course-project/logout/" className="dropdown-item">Выйти</Link>
+                <Link to={`/fast-company/users/${currentUser._id}`} className="dropdown-item">Профиль</Link>
+                <Link to="/fast-company/logout/" className="dropdown-item">Выйти</Link>
             </div>
         </div>
     );
