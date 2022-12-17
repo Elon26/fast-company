@@ -1,0 +1,6 @@
+{
+    "apiEndPointOld": "http://localhost:4000/api/v1/",
+    "apiEndPoint": "https://fast-company-firebase-eebb5-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "isFirebase": true,
+    "REACT_APP_FIREBASE_KEY": "AIzaSyAz_jzhnvEWnSLizowwqX42JMBb4MG9By0"
+}
