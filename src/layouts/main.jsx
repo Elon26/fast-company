@@ -11,8 +11,11 @@ const Main = () => {
     };
 
     return (
-        <div className="container mt-5">
-            <h1 className="d-flex justify-content-center">Воспользуйтесь ссылками на панели быстрого доступа (вверху)</h1>
+        <div className="d-flex h-100 justify-content-center align-items-center pb-5 bg-info bg-gradient">
+            <h1 className="mb-5 pb-5">
+                <p className="text-center">Добро пожаловать!!!</p>
+                <p className="text-center">Для продолжения зарегистрируйтесь или перейдите на страницу пользователей</p>
+            </h1>
             {isShow && <>
                 <h3>Инициализация данных в Firebase</h3>
                 <ul>
